@@ -11,5 +11,5 @@ function sendVirtualHug() {
 function startMovie() {
     alert("Initiating Flowers!");
     console.log("Flowers button initiated!");
-    window.location.href = 'https://www.google.com';
+    window.location.href = 'https://tinyurl.com/flowersforroms1';
 }
