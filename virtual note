@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Note </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="overlay">
+        <div class="container">
+            <h1>Virtual Note for Roms </h1>
+            <p>Hi baby, I miss you already. Forgive me? Only two options mwahaha 💖</p>
+            <button id="acceptButton" onclick="showInteraction()"> fINE </button>
+
+            <div id="interactiveSection" class="message hidden">
+                <p> YEYYYY 💕</p>
+                <button id="hugButton" onclick="sendVirtualHug()">I love you! 🤗</button>
+              <button id="playButton" onclick="startMovie()"> 🎬</button>
+            </div>
+
+            <div id="responseSection" class="message hidden">
+                <p>I love you, baby! 💖</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
