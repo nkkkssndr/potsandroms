@@ -9,5 +9,7 @@ function sendVirtualHug() {
 }
 
 function initiateFlowers() {
+    console.log("initiateFlowers called");
     alert("Initiating Flowers!");
+    window.open('https://tinyurl.com/flowersforroms1', '_blank'); 
 }
