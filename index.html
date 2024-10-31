@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Note </title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="overlay">
+        <div class="container">
+            <h1>Virtual Note </h1>
+            <p>Hi baby! I made this on short notice. Can you forgive bunbun? 💖</p>
+            <button id="acceptButton" onclick="showInteraction()">fINE HMP!</button>
+
+            <div id="interactiveSection" class="message hidden">
+                <p>YEYYYY! I'm sorry love hehe. I'll give you lots of kisses 💕</p>
+                <button id="hugButton" onclick="sendVirtualHug()">I love you! 🤗</button>
+            </div>
+
+            <div id="responseSection" class="message hidden">
+                <p>I love you baby! 💖</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
