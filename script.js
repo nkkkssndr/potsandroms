@@ -8,8 +8,6 @@ function sendVirtualHug() {
     document.getElementById('interactiveSection').classList.add('hidden');
 }
 
-function startMovie() {
+function initiateFlowers() {
     alert("Initiating Flowers!");
-    console.log("Flowers button initiated!");
-    window.location.href = 'https://tinyurl.com/flowersforroms1';
 }
