@@ -11,5 +11,5 @@ function sendVirtualHug() {
 function startMovie() {
     alert("Initiating Flowers!");
     console.log("Flowers button initiated!");
-    window.open ('https://www.800florals.com/virtual/index.asp?CODE=515-077ramientosnkass', '_blank');
+    window.location.href = 'https://www.800florals.com/virtual/index.asp?CODE=515-077ramientosnkass';
 }
